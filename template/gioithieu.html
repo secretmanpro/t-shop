@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Tâm Company</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/animate/animate.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+   
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="flexcroll">
+    <div class="header ">
+        <div class="navbar-top collapse navbar-collapse js-navbar-collapse">
+            <div class="container-fluid">
+                <div class="nav navbar-nav menu-top-left">
+                    <li>
+                        <a href="tel">
+                            <i class="glyphicon glyphicon-earphone"></i>
+                             Gọi cho chúng tôi:
+                                 0169.99.99.99</a>
+                    </li>
+                    <li>
+                        <a href="mailto:lioneltam10@email.com">
+                                <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i> 
+                        t-shop@gmail.com</a>
+                    </li>
+                </div>
+                <div class="nav navbar-nav  menu-top-right">
+                    <li>
+                        <a id="btnDangKy" href="#" data-toggle="modal" data-target="#modalSignIn" data-whatever="@mdo">
+                            <span class="glyphicon glyphicon-user"></span> Đăng ký</a>
+                    </li>
+                    <li>
+                        <a id="btnDangNhap" href="#" data-toggle="modal" data-target="#modalLogIn" data-whatever="@mdo">
+                            <span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a>
+                    </li>
+                    <li>
+                        <img src="images/flag.png" />
+                        <a href="#">Tiếng Việt</a>
+                    </li>
+                    <li>
+                        <img class="flag" src="images/flag1.png" />
+                        <a href="#">English</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default  ">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="images/logo.png">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse js-navbar-collapse">
+                <ul class="nav navbar-nav navbar-left menu-trai">
+                    <li>
+                        <a href="index.html">Trang chủ</a>
+                    </li>
+                   
+                    <li class ="dropdown mega-dropdown"><a data-toggle="dropdown"  data-hover="dropdown" class="dropdown-toggle" data-animations="fadeIn" href="#" >Sản phẩm</a>
+
+                        <ul class="dropdown-content dropdown-menu row" >
+                                 
+                                <!--Dropdown thường-->
+                                <!--  <li class="item-dropdown"><a href="">Apple</a></li>
+                                <li class="item-dropdown"><a href="">Samsung</a></li>
+                                <li class="item-dropdown"><a href="">Oppo</a></li>
+                                <li class="item-dropdown"><a href="">LG</a></li>
+                                <li class="item-dropdown"><a href="">Sony</a></li>
+                                <li class="item-dropdown"><a href="">Nokia</a></li> -->
+                                <!--Mega dropdown-->
+                            <li  class="item-dropdown col-md-3"><a href="">Thương hiệu</a>
+                                <ul>
+                                    <li>
+                                        <a href="">Apple</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Samsung</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Oppo</a>
+                                    </li>
+                                    <li>
+                                        <a href="">LG</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Sony</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Nokia</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Asus</a>
+                                    </li>
+                                    <li>
+                                        <a href="">HTC</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Dell</a>
+                                    </li>
+                                </ul>
+                            </li>
+                           
+                            <li class="item-dropdown col-md-3"><a href="">Loại sản phẩm</a>
+                                <ul>
+                                    <li><a href="">Laptop</a></li>
+                                    <li><a href="">Smartphone</a></li>
+                                    <li><a href="">Phụ kiện</a></li>
+                                    <li><a href="">Máy tính bảng</a></li>
+                                </ul>
+                            </li>
+                             <li class="item-dropdown col-md-3"><a href="">Dịch vụ - Điều khoản</a>
+                                <ul>
+                                    <li><a href="">Chính sách mua hàng Online</a></li>
+                                    <li><a href="">Hướng dẫn mua hàng</a></li>
+                                    <li><a href="">Dịch vụ bảo trì, sửa chữa</a></li>
+                                    <li><a href="">Quy định đổi, trả hàng</a></li>
+                                </ul>
+                            </li>
+                            <li class="item-dropdown col-md-3">
+                                <ul>
+                                    <li>
+                                    <img class="img-responsive" src="images/menu/menu1.jpg">
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="lienhe.html">Liên hệ</a>
+                    </li>
+                    <li class="cart" style="border:0">
+                        <a style="width:215px;padding-left: 0" href="cart.html">
+                            <span id="textCart">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;Giỏ hàng</span>
+                            &nbsp;
+                          
+                             <span   class="soluong" alt="">100</span>
+                        </a>
+                    </li>
+                    <button id="btnOpenSearch" type="button" class="btn btn-default">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                </ul>
+                 <div class="search col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <form action="timkiem.html" method="get">
+                            <div class="form-group">
+                                <div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
+                                <input name="keyword" type="text" class="form-control " placeholder="Tìm kiếm...">
+                                </div>
+                                
+                            </div>
+                            <div class="col-xs-2 col-sm-2 col-md-1  col-lg-1 ">
+                                <button id="btnSearch" type="submit" class="btn btn-default">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                                <button id="btnClose" type="button" class="btn btn-default">
+                                    <i class="fa fa-window-close"></i>
+                                </button>
+                            </div>
+                       
+                         </form>
+                </div>
+            </div>
+            <!-- /.nav-collapse -->
+        </nav>
+    </div>
+    <div class="banner-page">
+        <img   class=" img-banner-page img-responsive" src="images/banner/banner.png" >
+        <img data-wow-duration="2s" class="wow bounceIn hoa-van-trai img-responsive" src="images/banner/hoa_van_trai.png">
+        <p data-wow-duration="2s" class="wow bounceIn text-banner">GIỚI THIỆU</p>
+        <img data-wow-duration="2s"  class="wow bounceIn hoa-van-phai img-responsive" src="images/banner/hoa_van_phai.png">
+    </div>
+    <div class="page-content">
+        <div class="maincontent-area">
+            <div data-wow-durian="2s" class="container wow fadeInUp">
+            <h2 class="section-title">VỀ CHÚNG TÔI</h2>
+            <div class="divided-block">
+                <div class="divided-block_line"></div>
+                <div class="divided-block_square"></div>
+                <div class="divided-block_line"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                     <img   src="images/gioithieu/congty.jpg" class="img-responsive wow slideInLeft" data-wow-durian="2s" alt="Image">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <p data-wow-durian="2s" class="paragraph wow slideInRight">
+                        <b style="font-size:18px; color: red">T-Shop</b> được thành lập vào năm 2011, T-Shop là công ty tiên phong tại Việt Nam chuyên về ngành hàng các Thương hiệu điện thoại di động. Lĩnh vực hoạt động của công ty bao gồm:
+
+                        Phát triển các hệ thống chuỗi bán lẻ cho người tiêu dùng
+                        Nghiên cứu và cho ra đời các Thương hiệu an toàn, chất lương, giá thành hợp lý dành riêng cho người tiêu dùng.
+
+                        Nền tảng & Giá trị cốt lõi
+
+                        Tầm nhìn: Với định hướng: Phát triển các hệ thống chuỗi bán lẻ cho mẹ bầu & em bé & Nghiên cứu và cho ra đời các Thương hiệu chuyên dành cho trẻ em, Công ty luôn lấy sứ mệnh “Mang đến những Thương hiệu tốt nhất cho trẻ em việt nam” làm kim chỉ nam cho mọi hoạt động kinh doanh.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                     <img data-wow-durian="4s" src="images/gioithieu/congty1.jpg" class="wow slideInLeft img-responsive" alt="Image">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <p data-wow-durian="4s" class="wow slideInRight paragraph">
+                        Thương hiệu: T-Shop luôn cam kết, đảm bảo đưa Thương hiệu trực tiếp từ nhà sản xuất đến tay người dùng và kiểm soát được chất lượng để đáp ứng được nhu cầu ngày càng cao của khách hàng. Tất cả các Thương hiệu tại T-Shop đều có nguồn gốc xuất xứ rõ ràng, chất lượng, đa dạng chủng loại với giá hợp lý. Chính vì vậy, các phụ huynh hoàn toàn có thể an tâm và tin tưởng khi lựa chọn sử dụng Thương hiệu tại T-Shop.
+                        <br>
+                        Tiện lơi: T-Shop luôn đạt mức tăng trưởng 100% hàng năm, Hệ thống siêu thị đang phủ sóng trên 40 tỉnh thành Việt Nam. Trong đó, TP. HCM là thị trường lớn nhất với gần 90 điểm bán, tiếp đến là Bình Dương và Đồng Nai. Trong tương lai, T-Shop có kế hoạch sẽ phủ sóng 64 tỉnh thành với cam kết mang đến sự tiện lợi trong mua sắm tới tất cả phụ huynh khắp cả nước: Thương hiệu nhập khẩu chính hãng, chất lượng, giá hợp lý và đa dạng chủng loại. Nhờ đó, khách hàng có thể tìm thấy bất cứ Thương hiệu nào dành cho người tiêu dùng tại siêu thị T-Shop.
+                        <br>
+                        Công nghệ: T-Shop được xây dựng dựa trên nền tảng công nghệ thông tin hiện đại. Công ty đầu tư hệ thống phần mềm quản lý, kiểm soát mọi hoạt động kinh doanh, từ điều hành, phân phối Thương hiệu đến bán hàng, tối ưu hóa quy trình hoạt động. Nhờ đó cắt giảm nhiều chi phí trong quá trình vận hành để có được giá bán phù hợp với số đông người tiêu dùng Việt Nam.
+                        <br>
+                        Nhân sự: Đội ngũ nhân viên chuyên nghiệp, tâm huyết và là niềm tự hào của Công ty. Tổng số nhân viên được tuyển dụng và đào tạo chuyên nghiệp hiện tại đã lên đến con số khoảng 1.500 nhân sự. Bên cạnh đó, đời sống tinh thần của nhân viên cũng được quan tâm, chăm sóc cùng những chính sách đãi ngộ, nâng cao tinh thần làm việc và truyền cảm hứng để nhân viên cống hiến và mang lại những giá trị cho bản thân và cộng đồng.
+                        <br>
+                        Đối tác: T-Shop có lợi thế trong việc hợp tác với nhiều tập đoàn đa quốc gia, cũng như việc phân phối độc quyền cho nhiều nhãn hàng Nhật, Hàn Quốc, Thái Lan. Bên cạnh đó, T-Shop còn hợp tác với nhiều nhà máy hàng đầu tại Nhật, Hàn Quốc, Thái Lan để nghiên cứu và cho ra đời những Thương hiệu tốt nhất dành cho người tiêu dùng Việt Nam.
+                    </p>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        <div class="maincontent-area">
+            <div id="hdmh" data-wow-durian="2s" class="container wow fadeInUp ">
+            <h2 class="section-title">HƯỚNG DẪN MUA HÀNG</h2>
+            <div class="divided-block">
+                <div class="divided-block_line"></div>
+                <div class="divided-block_square"></div>
+                <div class="divided-block_line"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <p class="paragragh ">
+                        <ol  list-style-type="decimal">
+                            <li>Gọi điện thoại: <b>0169.99.99.99</b> để được tư vấn và mua hàng nhanh nhất.
+                            </li>
+                            <li>Đặt hàng trực tuyến trên website: Quý khách đăng nhập bằng số Email và mật khẩu để đặt hàng. Nếu Quý khách lần đầu đặt hàng tại <b style="font-size:18px; color: red">T-Shop</b>, xin vui lòng đăng ký tài khoản . Đăng ký tài khoản tại <b style="font-size:18px; color: red">T-Shop</b> giúp quý khách xem lại các đơn hàng đã đặt và lưu giữ các Thương hiệu đã cho vào giỏ hàng. Cũng như kiểm tra tiền tiết kiệm mua hàng của mình từ chương trình "Tiết kiệm 1%".
+                            </li>
+                            <li>Hệ thống chuỗi siêu thị <b style="font-size:18px; color: red">T-Shop</b> toàn quốc Bạn có thể tìm thấy siêu thị điện máy tại mục Tìm siêu thị hệ thống siêu thị đã và đang phủ sóng toàn quốc. Bạn chọn tỉnh và quận huyện để xem vị trí siêu thị gần nơi bạn và có thể trực tiếp đến mua hàng. Hiện <b style="font-size:18px; color: red">T-Shop</b> không có đại lý và chi nhánh mà là 1 chuỗi siêu thị Mẹ bầu và Em bé toàn quốc có địa chỉ trung tâm điều hành là Tầng 4 Toà nhà Lawrence S.Ting, 687 Sương Nguyệt Anh, TP Hồ Chí Minh. Tất cả các chuỗi siêu thị diện máy <b style="font-size:18px; color: red">T-Shop</b> đều có bảng hiệu " <b style="font-size:18px; color: red">T-Shop</b>.com".</li>
+                            <li>
+                                Hướng dẫn chọn size và kích thước Quý khách có thể vào trang <b style="font-size:18px; color: red">T-Shop</b> để chọn Thương hiệu mua. Về thông tin kích thước chọn size, kích thước bạn có thể tham khảo tại đây. Sau khi nhận được đơn hàng của quý khách, <b style="font-size:18px; color: red">T-Shop</b> sẽ liên lạc với quý khách để xác nhận và giao hàng
+                            </li>
+                        </ol>
+                    <p>
+
+                </div>
+        
+            </div>
+            </div>
+        </div>
+        <div class="maincontent-area">
+            <div id="dvbh" data-wow-durian="2s" class="container wow fadeInUp">
+            <h2 class="section-title">DỊCH VỤ BẢO HÀNH</h2>
+            <div class="divided-block">
+                <div class="divided-block_line"></div>
+                <div class="divided-block_square"></div>
+                <div class="divided-block_line"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <p class="text-justify">
+                         Các sản phẩm được bảo hành miễn phí tại Trung Tâm bảo hành của Công ty nếu sản phẩm đó còn thời hạn bảo hành và thỏa mãn các điều kiện bảo hành của Công ty đưa ra hoặc theo quy định của từng hãng sản xuất
+
+                         Có đầy đủ phiếu bảo hành và còn nguyên tem của Công ty trên các sản phẩm được bảo hành.
+                        <ol list-style-type="decimal">
+                            <li>ĐỐI VỚI CÁC SẢN PHẨM  ĐƯỢC BÁN RA TRONG THỜI GIAN 07 NGÀY:
+                                <ul>
+                                    <li>Công ty sẽ đổi ngay cho Qúy khách hàng 01 sản phẩm tương tự mới 100%. Nếu sản phẩm có bất kỳ lỗi gì của nhà sản xuất. </li>
+                                   
+                                </ul>
+                            </li>
+                            <li>ĐỐI VỚI CÁC SẢN PHẨM  ĐƯỢC BÁN RA TRONG THỜI GIAN 06 THÁNG:
+                                <ul>
+                                    <li>
+                                        Công ty sẽ trả bảo hành cho Quý khách hàng trong vòng 04 ngày làm việc. Trong thời gian đó Công ty sẽ cho Quý khách hàng mượn  01 sản phẩm khác (có cùng tính năng như sản phẩm được bảo hành) để sử dụng tạm thời trong thời gian chờ lấy.
+                                     </li>
+                                </ul> 
+                           
+                            </li>
+                        </ol>
+                        CÁC TRƯỜNG HỢP KHÔNG ĐƯỢC BẢO HÀNH:
+                        <ul>
+                            <li>Hết thời gian bảo hành.</li>
+                            <li> Sản phẩm không có tem bảo hành của Công ty hoặc tem bảo hành bị chắp nối rách nát, sửa đổi, tẩy xóa.</li>
+                            <li>Các sản phẩm hỏng do tác động của cơ học, bị biến dạng, rơi vỡ, cong vênh, trầy xước…</li>
+                            <li>Các sản phẩm hư hỏng do sự cố lưới điện, sử dụng sai nguồn điện, cháy chập.</li>
+                            <li> Các phần mềm, sản phẩm miễn phí tặng kèm.
+                            </li>
+                            <li>Các sản phẩm hư hỏng do sử dụng và bảo quản không đúng quy trình kỹ thuật hoặc côn trùng xâm nhập</li>
+                            <li>Bảo hành không bao gồm giao hàng và vận chuyển hàng hóa.</li>
+                        </ul>
+                    <p>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        <div class="maincontent-area">
+            <div data-wow-durian="2s" id="ghol" class="container wow fadeInUp">
+            <h2 class="section-title">CHÍNH SÁCH GIAO HÀNG ONLINE</h2>
+            <div class="divided-block">
+                <div class="divided-block_line"></div>
+                <div class="divided-block_square"></div>
+                <div class="divided-block_line"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <p class="text-justify">
+                        <ol list-style-type="decimal">
+                            <li>Phạm vi giao hàng:
+                                <ul>
+                                    <li>GIAO HÀNG TẬN NƠI TOÀN QUỐC 
+                                    VỚI ĐƠN HÀNG TỪ 150.000 VNĐ </li>
+                                    <li>
+                                    Miễn phí đơn hàng nội thành với giá trị thanh toán đơn hàng từ 199.000 VNĐ
+                                    Miễn phí đơn hàng ngoại thành với giá trị thanh toán đơn hàng từ 399.000 VNĐ
+                                    </li>
+                                </ul>
+                            </li>
+                        <li>Phí giao hàng: 
+                            <table class="table ">
+                                <thead>
+                                    <tr>
+                                        <th>KHU VỰC</th>
+                                        <th>GIÁ TRỊ ĐƠN HÀNG</th>
+                                        <th>CƯỚC PHÍ VẬN CHUYỂN</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="2">Nội thành</td>
+                                        <td>Từ 199.000 VNĐ</td>
+                                        <td>Miễn phí</td>
+                                    </tr>
+                                    <tr>
+                                       
+                                        <td>Từ 150.000 – Dưới 199.000 VNĐ</td>
+                                        <td>20.000 VNĐ</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">Ngoại thành</td>
+                                        <td>Từ 399.000 VNĐ</td>
+                                        <td>Miễn phí</td>
+                                    </tr>
+                                    <tr>
+                                       
+                                        <td>Từ 150.000 – Dưới 399.000 VNĐ</td>
+                                        <td>    
+                                        Khách hàng chịu toàn bộ chi phí của đơn vị vận chuyển hàng hóa</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </li>
+                        <li>Quy trình giao nhận
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <p class="text-justify">
+                                    <ul>
+                                        <li><strong>ĐƠN HÀNG NỘI THÀNH:</strong>
+
+                                        Khi nhận hàng, quý khách hàng cần lưu ý thực hiện:
+
+                                        - Mở gói hàng và đối chiếu hàng hóa với Phiếu giao hàng.
+
+                                        - Kiểm tra Thương hiệu thực tế có đúng với Thương hiệu mà Khách hàng đã đặt mua hay không.
+
+                                        - Kiểm tra bao bì và Thương hiệu có bị hư hại do quá trình vận chuyển hay không.
+
+                                        Nếu không hài lòng với 1 trong 3 điều trên, Khách hàng có thể yêu cầu Nhân viên giao hàng xác nhận và trả lại hàng.
+
+                                          <b style="font-size:18px; color: red">T-Shop</b> sẽ không chịu trách nhiệm giải quyết khiếu nại về việc thiếu hàng hoặc giao sai hàng của Khách hàng sau khi Khách hàng đã ký nhận và thanh toán.
+
+                                        Trong 15 ngày, quý khách được đổi hoặc trả hàng trong các trường hợp được quy định tại CHÍNH SÁCH ĐỔI TRẢ
+
+                                        Khách hàng nếu chọn hình thức "Thanh toán trực tiếp khi nhận hàng" thì thanh toán trực tiếp cho nhân viên giao hàng ngay sau khi nhận hàng.
+
+                                        </li>
+                                        <li>
+                                        <strong>ĐƠN HÀNG NGOẠI THÀNH:</strong>
+
+                                            -   <b style="font-size:18px; color: red">T-Shop</b> gửi hàng thông qua đơn vị vận chuyển và đảm bảo hàng hóa nguyên đai, nguyên kiện và mới 100%
+
+                                            - Nếu không hài lòng với kiện hàng đã giao, Khách hàng có thể trả lại hàng cho nhân viên nguyên đai, nguyên kiện như tình trạng ban đầu
+
+                                            - Trong 15 ngày, nếu không hài lòng với Thương hiệu, quý khách có thể gọi đến tổng đài CSKH:<b> 0169.99.99.99</b>  để được giải đáp thắc mắc.
+
+                                            -   <b style="font-size:18px; color: red">T-Shop</b> không hỗ trợ phí vận chuyển các mặt hàng: tã, sữa, thực phẩm, khăn ướt, Thương hiệu cồng kềnh không có thùng...</li>
+                                    </ul>    
+                                </p>
+                                </div>
+                                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                                    
+                                </div>
+                            </div>
+                            
+                        </li>
+                       
+                        </ol>
+                    <p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                     <img   src="images/gioithieu/bg-order.png" class=" img-responsive" alt="Image">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="maincontent-area">
+            <div id="dth" data-wow-durian="2s" class="container fadeInUp wow">
+            <h2 class="section-title">QUY ĐỊNH ĐỔI TRẢ HÀNG</h2>
+            <div class="divided-block">
+                <div class="divided-block_line"></div>
+                <div class="divided-block_square"></div>
+                <div class="divided-block_line"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <p class="text-justify">
+                        <ol list-style-type="decimal">
+                            <li>Điều kiện đổi trả sản phẩm :
+                                <ul>
+                                    <li> Hoá đơn còn nguyên vẹn, không chấp vá hoặc tẩy xoá. </li>
+                                    <li>
+                                    Hàng chưa qua sử dụng, còn mới, không bị rách hỏng.
+                                    </li>
+                                    <li>Hàng còn nguyên tem mác.</li>
+                                    <li> Mang theo hóa đơn khi đổi hàng.</li>
+                                    <li>Hàng có sản phẩm khuyến mại khách hàng phải mang theo sản phẩm đi kèm.</li>
+                                    <li> Gía trị hàng đổi phải bằng hoặc hơn giá trị sản phẩm đổi. Đổi mặt hàng hơn giá khách phải thanh toán thêm tiền chênh lệch.</li>
+                                    <li>Thời gian đổi hàng từ 8h-22h </li>
+                                </ul>
+                            </li>
+                        <li>Các bước đổi sản phẩm: 
+                            <ul>
+                                Vui lòng liên hệ Hotline, Chat để đăng ký đổi trả hàng. Trong vòng 03 ngày kể từ khi nhận hàng, nếu bạn muốn đổi sản phẩm, tuỳ vào khu vực giao hàng, chỉ cần thực hiện theo các bước sau:
+
+                                Đối với khách hàng mua trực tiếp tại cửa hàng : 03 ngày kể từ ngày mua hàng.
+                                <li>Lựa chọn 1 : Nhân viên giao hàng sẽ đem sản phẩm KH muốn đổi đến tận nhà, đồng thời nhận lại sản phẩm ban đầu  ( phí ship KH thanh toán).</li>
+                                <li>Lựa chọn 2 : Trực tiếp đến đổi tại cửa hàng</li>
+                                Đối với khách mua online: 15 ngày kể từ ngày mua hàng.
+
+                                Liên hệ thông qua Hotline hoặc chat để yêu cầu đổi sản phẩm: Tiến hành đóng gói để hoàn trả sản phẩm ban đầu bao gồm hoá đơn và sản phẩm còn nguyên vẹ ( xem điều kiện đổi trả sản phẩm) và gửi về Biluxuy theo đường bưu điện.
+                            </ul>
+                        </li>
+                        <li>Trả hàng</li>
+                            <ul>
+                                Nguyên nhân: Hàng lỗi do nhà sản xuất.
+                                <li>Hình thức trả hàng: Còn nguyên tem, mác, hóa đơn thanh toán.</li>
+                                <li> Thời gian trả hàng: Ngay khi phát hiện lỗi sản phẩm do nhà sản xuất.</li>
+                                <li>Địa điểm đổi trả: Địa chỉ mua hàng trước đó.</li>
+                            </ul>
+                        </ol>
+
+                    <p>
+                </div>
+      
+            </div>
+            </div>
+        </div>
+        <div class="maincontent-area">
+            <div class="section-count">
+            <div data-wow-durian="2s" class="container wow fadeInUp">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="title-count">
+                            <span class="number ">+</span><span data-from="50" data-to="103" data-speed="3000" data-refresh-interval="5" class="number counter timer">100,000</span>
+                            <span class="caption">/Khách hàng</span>
+                        </div>
+                        <div class="img-count">
+                            <img  data-wow-duration="700" class="img-responsive wow zoomInUp  img-count-content" src="images/gioithieu/customer.png">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="title-count">
+                            <span class="number">+</span><span data-from="50" data-to="103" data-speed="3000" data-refresh-interval="5" class="number counter timer">500</span>
+                            <span class="caption">/Nhân viên</span>
+                        </div>
+                        <div class="img-count">
+                            <img data-wow-duration="700" class="img-responsive img-count-content wow zoomInUp" src="images/gioithieu/employees.png">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="title-count">
+                            <span class="number ">+</span><span data-from="50" data-to="103" data-speed="3000" data-refresh-interval="5" class="number counter timer">10</span>
+                            <span class="caption">/Đối tác</span>
+                        </div>
+                        <div class="img-count">
+                            <img data-wow-duration="900" class="img-responsive wow zoomInUp img-count-content" src="images/gioithieu/partner.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <span data-wow-duration="1500" data-wow-delay="0.2s"  class="hotline wow zoomInUp"> Hotline: &nbsp;<b>0169.99.99.99</b>
+                    </span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-1">
+    </div>
+    <div class="footer-2">
+        <div class="container-fluid">
+            <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <ul class="listfooter" style="list-style-type: none">
+                    <p class="tieudefooter">MENU</p>
+                    <li>
+                        <a href="">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href="">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+                <ul class="listfooter" style="list-style-type: none">
+                    <p class="tieudefooter">THƯƠNG HIỆU</p>
+                    <li>
+                        <a href="">Apple</a>
+                    </li>
+                    <li>
+                        <a href="">Samsung</a>
+                    </li>
+                    <li>
+                        <a href="">Oppo</a>
+                    </li>
+                    <li>
+                        <a href="">LG</a>
+                    </li>
+                    <li>
+                        <a href="">Sony</a>
+                    </li>
+                    <li>
+                        <a href="">Nokia</a>
+                    </li>
+                    <li>
+                        <a href="">Asus</a>
+                    </li>
+                    <li>
+                        <a href="">HTC</a>
+                    </li>
+                    <li>
+                        <a href="">Thương hiệu</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <ul class="listfooter" style="list-style-type: none">
+                    <p class="tieudefooter">LIÊN HỆ</p>
+                    <li>Địa chỉ:</li>
+                    <li>687 Sương Nguyệt Anh, phường 9, quận 1, TPHCM</li>
+                    </br>
+                    <li>Điện thoại:</li>
+                    <li>Văn phòng 08.333.9999</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <ul class="listfooter" style="list-style-type: none">
+                    <p class="tieudefooter">THEO DÕI CHÚNG TÔI</p>
+                    <li>
+                        <input type="text" name="" id="inputFooter" class="form-control" value="" placeholder="Nhập Email của bạn" onblur="this.placeholder = 'Nhập Email của bạn'" onfocus="this.placeholder = ''" thisrequired="required" pattern="Nhập Email của bạn" title="">
+                        <button type="submit" id="btnSub" class="btn btn-primary">Theo dõi</button>
+                    </li>
+                    </br>
+                    <li>
+                        <a href="#">
+                            <img class="imgmxh" src="images/icon-face.png">
+                        </a>&nbsp;&nbsp;
+                        <a href="#">
+                            <img class="imgmxh" src="images/icon-youtube.png">
+                        </a>&nbsp;&nbsp;
+                        <a href="#">
+                            <img class="imgmxh" src="images/icon-google.png">
+                        </a>
+                         <img style="width: 140px; height: 50px" src="images/register.png"/ >
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-3">
+          Bản quyền 2017 -Thiết kế bởi Thanh Tâm - lioneltam10@gmail.com
+    </div>
+    <div class="nd">
+        <div class="tieudechat">
+            -- Chat online --
+            <span title="Nhấp vào đây để ẩn chat" style="position:absolute;right:25px;top:10px;" class="glyphicon glyphicon-minus-sign"></span>
+            <span title="Nhấp vào đây để tắt chat" style="position:absolute;right:5px;top:10px;" class="glyphicon glyphicon-remove"></span>
+        </div>
+        <div class="kqchat">
+            <div class="xuatNd" v-show="notEndChat" v-for="chat in dsChat">
+                <div class="message-bubble"><span style="color:red;margin-left:-10px">{{chat.ten}}</span>
+                    <br>{{chat.noiDungChat}}</div>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+        <div class="noidungchat" v-show="notEndChat">
+            <textarea id="inputChat" v-on:keyup.enter="addChat('Tôi')" v-model="noiDungNhapChat" placeholder="Nhập tin nhắn và ấn Enter để gửi ..." onfocus="this.placeholder=''" onblur="this.placeholder='Nhập tin nhắn...'"></textarea>
+        </div>
+    </div>
+    <img id="icon_chat" title="CHAT VỚI CHÚNG TÔI" src="images/chat.png">
+    <img id="backtotop" title="CLICK ĐỂ VỀ ĐẦU TRANG" src="images/backtotop.png">
+    <!--Đăng kí-->
+    <div class="modal fade" id="modalSignIn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Đăng ký tài khoản</h4>
+                </div>
+                <div class="modal-body">
+                    <div  class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6">
+                                <img class="img-form" src="images/sign-up.png" class="img-responsive img-circle">
+                        </div>
+                        <div class="col-sm-3"></div>
+                    </div>
+                    <form id="formDangKy" action="" method="POST" role="form">
+                        <div class="form-group">
+                            <label for="tendk" class="control-label">Tên đăng nhập</label>
+                            <input type="text" value="" class="form-control tendk" id="tendk" name="tendk">
+                     
+                        </div>
+                        <div class="form-group">
+                            <label for="emaildk" class="control-label">Email</label>
+                            <input type="email" value="" class="form-control emaildk" name="emaildk" id="emaildk" >
+                           
+                        </div>
+                        <div class="form-group">
+                            <label for="matkhaudk" class="control-label">Mật khẩu</label>
+                            <input type="password" value="" class="form-control matkhaudk" name="matkhaudk" id="matkhaudk" >
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="lapmatkhau" class="control-label">Xác nhận mật khẩu</label>
+                            <input type="password" value="" class="form-control lapmatkhau" name="lapmatkhau" id="lapmatkhau" >
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="hoten" class="control-label">Họ tên</label>
+                            <input type="text" value="" class="form-control hoten" name="hoten" id="hoten" >
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="dienthoai" class="control-label">Điện thoại</label>
+                            <input type="text" value="" class="form-control dienthoai" name="dienthoai" id="dienthoai" >
+                            
+                        </div>
+                        <div class="form-group form-inline form-gioitinh">
+                            <div class="row ">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <label for="gioitinh" class="control-label">Giới tính</label>
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">  
+                                    <div class=" form-inline "  >
+                                        <label for="men" class="radio-inline">
+                                        <input type="radio" value="nam" name="gioitinh" id="men">
+                                        Nam</label>&nbsp;
+                                        <label for="girl" class="radio-inline">
+                                        <input type="radio" value="nữ" name="gioitinh" id="girl">
+                                        Nữ</label>&nbsp;
+                                        <label for="other" class="radio-inline">
+                                       
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                    
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <div class="form-inline form-dongy">
+                                    <div class="checkbox">
+                                    <label for="dongy"> <input type="checkbox"  id="dongy" class="dongy" name="dongy" > Tôi đồng ý chấp nhận <a title="Click xem điều khoản" style="color:blue" href="gioithieu.html">điều khoản</a> của T-Shop</label>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-2 col-sm-2 col-md-8 col-lg-8">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer ">
+                            <button id="btnDangKy" type="submit" name="btnDangKy" class="btn btnForm" >Đăng ký</button>
+                            <button id="btnDangKyXoa" type="submit" class="btn btnForm " name="btnXoa" data-dismiss="modal">Thoát</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Đăng nhập-->
+    <div class="modal fade" id="modalLogIn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Đăng nhập tài khoản</h4>
+                </div>
+                <div class="modal-body">
+                    <div  class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6">
+                                <img src="images/log-in.png" class="img-responsive img-form">
+                        </div>
+                        <div class="col-sm-3"></div>
+                    </div>
+                    
+                    <form id="formDangNhap" action="" method="POST" role="form">
+                        
+                        <div class="form-group">
+                            <label for="tendn" class="control-label">Tên đăng nhập</label>
+                            <input placeholder= "Nhập tên đăng nhập" type="text" value="" class="form-control tendn" name="tendn" id="tendn" >
+                           
+                        </div>
+                      
+                        <div class="form-group ">
+                            <label for="matkhau" class="control-label">Mật khẩu</label>
+                            <input placeholder= "Nhập mật khẩu" value="" type="password" id="matkhaudn" name="matkhaudn" class="form-control" >
+                         
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3">
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
+                                <div class="input-group">
+                                    <div class="checkbox">
+                                    <label for="ghinhodn" class="control-label-agree">
+                                    <input type="checkbox" 
+                                    name="ghinhodn" 
+                                    class="form-checkbox" id="ghinhodn" >
+                                    Ghi nhớ đăng nhập</label>
+                                    &nbsp;&nbsp;
+                                        <a style="color:brown" href="quenmk.html">Quên mật khẩu?</a>  
+                                    </div></div>        
+                                </div>
+                                <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3">
+                                    
+                                </div>
+                            
+                            </div>
+                        </div>
+                       
+                       
+                        <div class="modal-footer">
+                            <button id="btnDangNhap" type="submit" name="btnDangNhap" class="btn btnForm">Đăng nhập</button>
+                            <button id="btnDangNhapXoa" type="button" class="btn btnForm" data-dismiss="modal">Thoát</button>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src='js/jquery224.js'></script>
+    <script type="text/javascript" src="js/vue.js"></script>
+    <script type="text/javascript" src="js/chat/chat.js"></script>
+    <script type="text/javascript" src='bootstrap-3.3.7/js/bootstrap.min.js'></script>
+    <script type="text/javascript" src="js/counter/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="js/wow/wow.min.js"/></script>
+    <script>
+              new WOW().init();
+    </script>
+    <script src="js/counter/waypoints.js"></script>
+    <script>
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+    </script>
+    <script type="text/javascript" src="js/smoothscroll/smoothscroll.js"></script>
+    <script src="js/latest-product/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/validate/jquery.validate.js"></script>
+    <script type="text/javascript" src="js/validate/validate_login_signin.js"></script>
+    <script src="js/latest-product/jquery.sticky.js"></script>
+<!--     <script type="text/javascript">
+    $(document).on('click', '.mega-dropdown', function(e) {
+        e.stopPropagation();
+    })
+    </script> -->
+    <script type="text/javascript" src="js/hideshowchat.js"></script>
+
+    <script type="text/javascript" src="js/hover dropdown menu/bootstrap-dropdownhover.min.js"></script>
+ 
+    
+</body>
+
+</html>

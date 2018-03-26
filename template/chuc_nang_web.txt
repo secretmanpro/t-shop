@@ -1,0 +1,384 @@
+sản phẩm bán chạy
+sản phẩm xem nhiều
+sản phẩm mới
+
+view page
+tình trạng còn hàng hay hết
+
+Sản phẩm:
+  -Thương hiệu: Apple,Samsung
+  -Loại sản phẩm: 3 loại : 
+  	+Phụ kiện
+  	+Laptop
+  	+Smartphone 
+  	
+
+  	làm thêm 1 trang để tiêu đề là loại sản phẩm
+  	sau đó có khung search nâng cao
+  	làm trang 404
+
+  	<p class="price-product"><del>18.000.000 VND</del><ins>16.000.000 VND</ins>
+
+                            </p>
+
+
+
+ <div class="maincontent-area">
+            <div class="zigzag-bottom"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="latest-product">
+                            <h2 class="section-title">SẢN PHẨM MỚI CẬP NHẬT</h2>
+                            <div class="divided-block">
+                                <div class="divided-block_line"></div>
+                                <div class="divided-block_square"></div>
+                                <div class="divided-block_line"></div>
+                            </div>
+                            <div class="product-carousel">
+
+                                <div class="single-product">
+                                
+                                    <div class="product-f-image">
+                                            <span class="block-circle text-circle">NEW</span>
+
+                                        <img src="images/products/product-1.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="#" class="add-to-cart-link">
+                                                <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ HÀNG</a>
+                                            <a href="chitietsp.html" class="view-details-link">
+                                                <i class="fa fa-link"></i> CHI TIẾT</a>
+                                        </div>
+                                    </div>
+
+                                    <h2>
+                                        <a href="chitietsp.html">Samsung Galaxy s5- 2015</a>
+                                    </h2>
+
+                                    <div class="product-carousel-price">
+                                        <p class="rating-product">
+                                        <select id="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                        </p>
+
+                                        <ins>16.000.000 VND</ins>
+                                        <del>15.000.000 VND</del>
+                                    </div>
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                           <span class="block-circle text-circle" alt="">NEW</span>
+                                        <img src="images/products/product-2.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="#" class="add-to-cart-link">
+                                                <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ HÀNG</a>
+                                            <a href="chitietsp.html" class="view-details-link">
+                                                <i class="fa fa-link"></i> CHI TIẾT</a>
+                                        </div>
+                                    </div>
+
+                                    <h2>
+                                        <a href="chitietsp.html">Samsung Galaxy s5- 2015</a>
+                                    </h2>
+
+                                      <div class="product-carousel-price">
+                                        <p class="rating-product">
+                                        <select id="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                        </p>
+
+                                        <ins>16.000.000 VND</ins>
+                                        <del>15.000.000 VND</del>
+                                    </div>
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <span class="block-circle text-circle" alt="">NEW</span>
+                                        <img src="images/products/product-3.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="#" class="add-to-cart-link">
+                                                <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ HÀNG</a>
+                                            <a href="chitietsp.html" class="view-details-link">
+                                                <i class="fa fa-link"></i> CHI TIẾT</a>
+                                        </div>
+                                    </div>
+
+                                    <h2>
+                                        <a href="chitietsp.html">Samsung Galaxy s5- 2015</a>
+                                    </h2>
+
+                                      <div class="product-carousel-price">
+                                        <p class="rating-product">
+                                        <select id="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                        </p>
+
+                                        <ins>16.000.000 VND</ins>
+                                        <del>15.000.000 VND</del>
+                                    </div>
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <span class="block-circle text-circle" alt="">NEW</span>
+                                        <img src="images/products/product-4.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="#" class="add-to-cart-link">
+                                                <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ HÀNG</a>
+                                            <a href="chitietsp.html" class="view-details-link">
+                                                <i class="fa fa-link"></i> CHI TIẾT</a>
+                                        </div>
+                                    </div>
+
+                                    <h2>
+                                        <a href="chitietsp.html">Samsung Galaxy s5- 2015</a>
+                                    </h2>
+
+                                      <div class="product-carousel-price">
+                                        <p class="rating-product">
+                                        <select id="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                        </p>
+
+                                        <ins>16.000.000 VND</ins>
+                                        <del>15.000.000 VND</del>
+                                    </div>
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                        <span class="block-circle text-circle" alt="">NEW</span>
+                                        <img src="images/products/product-5.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="#" class="add-to-cart-link">
+                                                <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ HÀNG</a>
+                                            <a href="chitietsp.html" class="view-details-link">
+                                                <i class="fa fa-link"></i> CHI TIẾT</a>
+                                        </div>
+                                    </div>
+
+                                    <h2>
+                                        <a href="chitietsp.html">Samsung Galaxy s5- 2015</a>
+                                    </h2>
+
+
+                                      <div class="product-carousel-price">
+                                        <p class="rating-product">
+                                        <select id="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                        </p>
+
+                                        <ins>16.000.000 VND</ins>
+                                        <del>15.000.000 VND</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End main content area -->
+
+
+        <div class="maincontent-area">
+            <div class="zigzag-bottom"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="latest-product">
+                            <h2 class="section-title">SẢN PHẨM BÁN CHẠY</h2>
+                            <div class="divided-block">
+                                <div class="divided-block_line"></div>
+                                <div class="divided-block_square"></div>
+                                <div class="divided-block_line"></div>
+                            </div>
+                            <div class="product-carousel">
+
+                                <div class="single-product">
+                                    <span class="block-circle text-circle" alt="">HOT</span>
+
+                                    <div class="product-f-image">
+
+                                        <img src="images/products/product-1.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="#" class="add-to-cart-link">
+                                                <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ HÀNG</a>
+                                            <a href="chitietsp.html" class="view-details-link">
+                                                <i class="fa fa-link"></i> CHI TIẾT</a>
+                                        </div>
+                                    </div>
+
+                                    <h2>
+                                        <a href="chitietsp.html">Samsung Galaxy s5- 2015</a>
+                                    </h2>
+
+                                      <div class="product-carousel-price">
+                                        <p class="rating-product">
+                                        <select id="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                        </p>
+
+                                        <ins>16.000.000 VND</ins>
+                                        <del>15.000.000 VND</del>
+                                    </div>
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                         <span class="block-circle text-circle" alt="">HOT</span>
+                                        <img src="images/products/product-2.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="#" class="add-to-cart-link">
+                                                <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ HÀNG</a>
+                                            <a href="chitietsp.html" class="view-details-link">
+                                                <i class="fa fa-link"></i> CHI TIẾT</a>
+                                        </div>
+                                    </div>
+
+                                    <h2>
+                                        <a href="chitietsp.html">Samsung Galaxy s5- 2015</a>
+                                    </h2>
+
+                                      <div class="product-carousel-price">
+                                        <p class="rating-product">
+                                        <select id="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                        </p>
+
+                                        <ins>16.000.000 VND</ins>
+                                        <del>15.000.000 VND</del>
+                                    </div>
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                         <span class="block-circle text-circle" alt="">HOT</span>
+                                        <img src="images/products/product-3.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="#" class="add-to-cart-link">
+                                                <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ HÀNG</a>
+                                            <a href="chitietsp.html" class="view-details-link">
+                                                <i class="fa fa-link"></i> CHI TIẾT</a>
+                                        </div>
+                                    </div>
+
+                                    <h2>
+                                        <a href="chitietsp.html">Samsung Galaxy s5- 2015</a>
+                                    </h2>
+
+                                      <div class="product-carousel-price">
+                                        <p class="rating-product">
+                                        <select id="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                        </p>
+
+                                        <ins>16.000.000 VND</ins>
+                                        <del>15.000.000 VND</del>
+                                    </div>
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                         <span class="block-circle text-circle" alt="">HOT</span>
+                                        <img src="images/products/product-4.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="#" class="add-to-cart-link">
+                                                <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ HÀNG</a>
+                                            <a href="chitietsp.html" class="view-details-link">
+                                                <i class="fa fa-link"></i> CHI TIẾT</a>
+                                        </div>
+                                    </div>
+
+                                    <h2>
+                                        <a href="chitietsp.html">Samsung Galaxy s5- 2015</a>
+                                    </h2>
+
+                                      <div class="product-carousel-price">
+                                        <p class="rating-product">
+                                        <select id="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                        </p>
+
+                                        <ins>16.000.000 VND</ins>
+                                        <del>15.000.000 VND</del>
+                                    </div>
+                                </div>
+                                <div class="single-product">
+                                    <div class="product-f-image">
+                                         <span class="block-circle text-circle" alt="">HOT</span>
+                                        <img src="images/products/product-5.jpg" alt="">
+                                        <div class="product-hover">
+                                            <a href="#" class="add-to-cart-link">
+                                                <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ HÀNG</a>
+                                            <a href="chitietsp.html" class="view-details-link">
+                                                <i class="fa fa-link"></i> CHI TIẾT</a>
+                                        </div>
+                                    </div>
+
+                                    <h2>
+                                        <a href="chitietsp.html">Samsung Galaxy s5- 2015</a>
+                                    </h2>
+
+
+                                      <div class="product-carousel-price">
+                                        <p class="rating-product">
+                                        <select id="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        </select>
+                                        </p>
+
+                                        <ins>16.000.000 VND</ins>
+                                        <del>15.000.000 VND</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

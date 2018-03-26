@@ -1,0 +1,39 @@
+.page-content{
+    padding: 100px;
+}
+.page-content p{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color:red;
+}
+.btn-404-group{
+    text-align: center;
+}
+
+
+.btn-404{
+    border-radius: 15px;
+    background: #072a5c;
+    color: white;
+    font-size: 18px;
+    padding:30px;
+    
+    margin-top: 10px;
+
+}
+
+.btn-404:hover,
+.btn-404:focus {
+    display: inline-block;
+    background: orange;
+    color: white;
+    transition: all 0.5s;
+}
+
+
+.btn-404>a{
+    color: white;
+    text-decoration: none;
+    border: 0;
+}

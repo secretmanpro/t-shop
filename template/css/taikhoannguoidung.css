@@ -1,0 +1,9 @@
+.myaccount{
+    width:100%;
+    border: solid 1px #555;
+    box-shadow: 2px 2px 2px #555;
+    margin-top: 20px;
+}
+#formUpdateAccount{
+   padding: 20px;
+}

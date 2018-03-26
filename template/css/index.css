@@ -1,0 +1,358 @@
+
+
+/*TIÊU ĐỀ CHUNG*/
+
+.maincontent-area {
+  padding-bottom: 50px; 
+  padding-top:20px;
+}
+
+.divided-block{
+  text-align: center;
+  display: block;
+  margin-top: -50px;
+}
+.divided-block_line{
+    width: 70px;
+    height: 1px;
+    background: #848484;
+    margin: 5px;
+    display: inline-block;
+}
+
+
+.divided-block_square{
+    width: 10px;
+    height: 10px;
+    background:#072a5c;
+    display: inline-block;
+}
+.section-title {
+  font-family: 'MyWebFont';
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/*LÀM TIÊU ĐỀ MỖI LOẠI SẢN PHẨM */
+.title-product{
+  background-color: #1c5fc0;
+  min-height: 20px;
+  width:100%;
+  color:white;
+  padding:15px;
+  font-size: 14px;
+  box-shadow: 0px 0px 5px 5px #e0e0e0;
+  border: solid 1px white;
+}
+.icon-title-product{
+  vertical-align: middle;
+  margin-top:-5px;
+  margin-left: 5px;
+  height:24px;
+}
+.btnSeeAll{
+    position: absolute;
+    background-color: orange;
+    border: none;
+    font-size: 14px;
+   
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    color:white;
+    right:30px;
+    top:7px;
+}
+.btnSeeAll:hover{
+  background-color: red;
+  color:white;
+}
+.btnSeeAll>a{
+  text-decoration: none;
+  color:white;
+}
+
+/*LATEST PRODUCT*/
+/********************************************/
+
+
+.single-product {
+  overflow: hidden;
+  padding-bottom: 10px;
+  width:360px;
+ 
+  margin:5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)!important;
+  
+}
+.product-f-image {
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.product-f-image img{
+  height:320px;
+
+}
+
+.product-hover {
+    height:320px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;overflow: hidden;border: 1px solid #ddd;
+}
+.product-hover:after {
+  background: none repeat scroll 0 0 #000;
+  content: "";
+  height: 100%;
+  left: -100%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 100%;transition: .4s;
+}
+.product-hover a {
+    background: none repeat scroll 0 0 #5a88ca;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    left: 10%;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #5a88ca;
+    width: 80%;z-index: 99;transition: .4s;
+}
+.product-hover a:hover {
+  background: red;
+  text-decoration: none;border-color: #444;
+}
+.product-carousel-price{
+    text-align: center;
+}
+.product-carousel-price ins {
+  color: #5a88ca;
+  font-weight: 700;
+  margin-right: 5px;
+  text-decoration: none;
+}
+.product-hover a i.fa {
+    margin-right: 5px;
+}
+.product-hover a.add-to-cart-link {top: -25%;}
+.product-hover a.view-details-link { bottom: -25%;}
+
+
+
+
+
+
+.single-product:hover .product-hover a.add-to-cart-link {top: 32%;}
+.single-product:hover .product-hover a.view-details-link {bottom: 32%;}
+.single-product:hover .product-hover:after{left: 0}
+
+/*Nút prev và next*/
+.product-carousel {
+  padding-top: 40px;
+
+}
+.latest-product .owl-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+/*định dạng nút pre next của sản phẩm nổi bật*/
+.latest-product .owl-nav div, .related-products-wrapper .owl-nav div {
+  background:#1c5fc0;
+  color:#FFF;
+  display: inline-block;
+  margin-left: 15px;
+  padding: 1px 10px;
+}
+
+.latest-product .owl-nav div:hover, .brand-wrapper .owl-nav div:hover, .related-products-wrapper .owl-nav div:hover {
+  color: #FFF; background:orange;
+}
+
+.latest-name-product{
+  color:white;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap; 
+  padding:10px;
+ 
+  background-color: #1c5fc0;
+}
+.latest-name-product:hover{
+  color:white;
+  font-size: 24px;
+  font-weight: bold;
+   text-align: center;
+  background-color: orange;
+  transition: 0.5s ease;
+}
+.latest-name-product >a{
+  color:white;
+   text-decoration: none;
+
+}
+
+
+
+/**********************************************/
+/**SECTION VIDEO**/
+.section-vid{
+  background-image: url("../images/trangchu/overlay.png"),url("../images/trangchu/section-vid.jpg");
+  background-attachment: scroll,fixed;
+  background-size:auto, cover;
+  background-color: #666;
+  background-repeat: repeat,no-repeat;
+  background-position: top left,center center; 
+  padding: 5em 0 5em 0;
+
+}
+p.follow-us{
+  font-size: 30px;
+  color:white;
+}
+.input-follow-us{
+  color:white;
+  background: rgba(255, 255, 255, 0.15);
+  border:solid 1px white;
+}
+#btnSub{
+  position: relative;
+  top:5px;
+}
+
+.input-follow-us::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white!important;
+  opacity: 1; /* Firefox */
+}
+
+.input-follow-us:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white!important;
+}
+
+.input-follow-us::-ms-input-placeholder { /* Microsoft Edge */
+  color: white!important;
+}
+
+/*********************************************/
+/*SLIDER  THƯƠNG HIỆU*/
+
+.brand img{
+  padding: 5px;
+}
+/***************************************************/
+/*Lảm chữ Hot nhảy*/
+.block-circle{
+    position: absolute;
+    z-index: 99;
+    top:10px;
+    border-radius: 50%;
+    background-color: #f15f2a;
+    border: 3px solid #fff;
+    text-decoration: blink;
+    animation-name: blinker;
+    animation-duration:0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 0.6s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-direction: alternate;
+    -ms-animation-name: blinker;
+    -ms-animation-duration: 0.6s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: ease-in-out;
+    -ms-animation-direction: alternate;
+  }
+  @keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+  
+  @-webkit-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+  @-moz-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+  @-ms-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+
+.text-circle{
+    position: absolute;
+   
+    right: 15px;
+    text-align: center;
+    width: 80px;
+    line-height: 34px;
+    height: 40px;
+    color: #ffffff;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+}
+.tieude>li{
+	margin :15px;
+	text-align: center;
+	width:calc( 30%-15px-15px-15px-15px);
+	display: inline-block;
+}
+
+.section-count{
+  background: #e9e8e8;
+  min-height: 200px;
+  position: relative;
+  top:20px;
+}
+
+.section-count .title-count{
+  text-align: center;
+  margin-top: 30px;
+}
+.section-count .number{
+      font-size: 30px;
+    color: #f15f2a;
+}
+.section-count .caption{
+  font-size: 24px;
+    color: #29272e;
+    text-align: center;
+}
+
+.img-count-content{
+  width: 80px;
+  height:80px;
+    margin:0 auto;
+  display: block;
+}
+
+
+
+
+

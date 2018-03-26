@@ -1,0 +1,349 @@
+@media screen and (max-width: 767px) {
+    /*Chung*/
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+          background-color: #072a5c;
+        /*màu của button click dropdown*/
+
+    }
+
+    .navbar-default .navbar-toggle .icon-bar{
+        /*Màu của icon của button drodown*/
+        background: white;
+    }
+    .navbar-nav{
+        margin:unset;
+    }
+    .header{
+        position: relative;
+
+    }
+    .navbar-brand{
+        padding:5px;
+    }
+    .banner-page {
+        width: 100%;
+        margin-top: -20px;
+    }
+    
+    .text-banner {
+        font-size: 35px;
+        color: white;
+        position: absolute;
+        top: 25%;
+        right:auto;
+        left:auto;
+        width:100%;
+        text-decoration:1px;
+       
+    }
+    /*HIỆU CHỈNH MENU TOP*/
+    .navbar-top{
+        width:100%;
+        font-size: 12px;
+        background-color:#1c5fc0;
+        color: white;
+    }
+    .navbar-top li a{
+        color:white;
+        padding-top: 5px;
+   
+    }
+      
+   
+
+    .menu-top-left {
+        width: 100%;
+        text-align: center;
+      
+    }
+    .menu-top-left li {
+        
+        margin-left: 5px;
+        padding-right:5px;
+        float:left;
+        width: 45%;
+        text-align: center;
+    }
+   
+    .menu-top-right {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .menu-top-right li {
+        width: 30%;
+        float: left;
+      
+    }
+    /*Chỉnh tag select ngôn ngữ*/
+    .menu-top-right li select {
+        width: 100%;
+        margin-top:-5px;
+    }
+    
+    /*tắt dropdown menu khi user log in thành công*/
+
+    .menu-top-right-login{
+        width:100%;
+        float:left;
+      }
+      .menu-top-right-login li{
+        margin-left: 10px;
+        width:45%;
+        float: left;
+      }
+      .menu-top-right-login li:first-child a{
+        text-align: center;
+      }
+      .menu-top-right-login li:last-child{
+        padding-top:5px;
+       
+      }
+      .menu-top-right-login li a:hover{
+        background: orange;
+        transition: 0.4s all;
+        cursor: pointer;
+      }
+     
+    .menu-top-right-login .open>a:hover,.menu-top-right-login .open>a:focus,.menu-top-right-login .open>a{
+    background: orange;
+    
+    }
+    .menu-top-right-login li ul ,.menu-top-right-login li ul li,.menu-top-right-login li ul li a,.menu-top-right-login .caret {
+        display: none;
+     
+    }
+    /*Hiện button xem thông tin account*/
+    .btnAccoutResponsive{
+        display: block;
+        width:100%;
+        padding-top: 40px;
+        margin-top: 40px;
+  
+    }
+    .btnAccoutResponsive li{
+        list-style: none;
+        float: left;
+        width:50%;
+        text-align: center;
+    }   
+  
+    /**********************************/
+    /*Search*/
+    #btnOpenSearch {
+        display:none;
+    }
+
+    .search {
+        display: block;
+        top:0;
+        position: relative;
+        margin-bottom: 30px;
+    }
+  
+    #btnClose {
+        display: none;
+    }
+
+    #btnSearch{
+      position: absolute;
+      top:0;
+      right:15px;
+    }
+    /**********************************/
+
+    /*HIỆU CHỈNH MENU CHÍNH*/
+    .navbar-default .navbar-nav>li>a {
+        text-align: left;
+    }
+    .menu-trai {
+        width: 100%;
+        overflow: hidden;
+    }
+    .menu-trai>li {
+        width: 100%;
+        color: white;
+        padding: 5px;
+
+        left: 0px;
+
+    }
+    /*Tắt overflow */
+    .navbar-collapse.in{
+        overflow-y: hidden;
+    }
+
+
+    .navbar-default .navbar-nav>li>a:after {
+        content: '';
+        position: absolute;
+        height: 2px;
+
+        left: 0;
+        width: 0;
+        top: 50%;
+        color: white;
+        margin-top: 20px;
+
+        background-color: #f15f2a;
+        -ms-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .navbar-default .navbar-nav>li>a:hover:after {
+        width: 100%;
+
+        color: white;
+    }
+    .navbar-default .navbar-nav>li>a:hover,
+    .navbar-default .navbar-nav li>a:actve {
+        color: white;
+        font-weight: bold;
+    }
+     
+    .item-dropdown{
+      color:white; 
+      width:100%;
+      position: relative;
+      float:none;
+      overflow: hidden;
+    }
+    /*Text thương hiệu, text loại sp*/
+    .dropdown-content >li >a,.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+        color:white!important;
+          background-color: #1c5fc0!important;
+    }
+
+    .item-dropdown ul{
+        background: white;
+        color:#337ab7;
+    }
+    /*chỉnh text con của text thương hiệu, text loại sp*/
+    .item-dropdown ul>li>a,.item-dropdown ul>li>a:hover{
+        padding-left: 15px;
+        margin-left: -20px;
+    }
+    .dropdown-content:before ,.dropdown-content:after{
+      display: none;
+    }
+
+    /*Product*/
+
+    .view-product{
+        width: 100%;
+    }
+    .view-product>img{
+        width: 20px!important;
+        height: 20px;
+        position: absolute;
+        left: 34%;
+        
+    }
+    .view-product>.soluotxem{
+        position: absolute;
+        left:45%;
+    }
+    /*Giỏ hàng*/
+    .cart {
+        left: 10px !important;
+    }
+
+    /*vị trí banner trang index*/
+    .slider{
+        margin-top:0;
+    }
+    .section-title {
+        font-size: 35px;
+    }
+
+  
+
+    /*Trang giới thiệu*/
+    /*Hình trang giới thiệu*/
+    .section-count {
+        width: 100%;
+        background: #072a5c;
+    }
+
+    /*trang giới thiệu*/
+   
+    .info .paragraph-1 {
+        text-align: justify;
+    }
+    .section-count .hotline {
+        font-size: 25px;
+        color: white;
+        width: 100%;
+        float: left;
+        margin-top: 25px;
+        border-bottom: 1px solid #fff;
+        text-align: center;
+        background-color: orange;
+    }
+    /*Trang chi tiết sp*/
+    .btnAddToCart {
+	    border-radius: 15px;
+	    background: #072a5c;
+	    color: white;
+	    font-size: 18px;
+	    position: relative;
+	   left:0;
+	   
+
+    }
+    .quanlity-plus {
+       
+        width: 20px;
+        text-align: center;
+        color: #333;
+        position: absolute;
+        background: #e1e2e4;
+    }
+    
+    .quanlity-plus>i {
+        font-size: 9px;
+    }
+    
+    .quanlity-minus {
+       
+        text-align: center;
+        
+        width: 20px;
+        color: #333;
+        background: #e1e2e4;
+        position: absolute;
+    }
+    
+    .quanlity-minus>i {
+        font-size: 9px;
+    }
+    
+    
+    /*TÀI KHOẢN USER*/
+    .myaccount{
+        margin:0 auto;
+    }
+      
+    /*CHI TIET SAN PHAM*/
+    .mot-binh-luan .fa_user{
+        font-size:40px;
+      }
+}
+
+
+
+/*max-width: 320px (điện thoại di động, hiển thị chiều dọc)
+max-width: 480px (điện thoại di động, hiển thị chiều ngang)
+max-width: 600px (máy tính bảng, hiển thị chiều dọc)
+max-width: 800px (máy tính bảng, hiển thị chiều ngang)
+max-width: 768px (máy tính bảng loại to, hiển thị chiều dọc)
+max-width: 1024px (máy tính bảng loại to, hiển thị chiều ngang)
+min-width: 1025px (từ size này trở lên là danh cho desktop thông thường).*/
+
+/*max-width: 320px (điện thoại di động, hiển thị chiều dọc)
+max-width: 480px (điện thoại di động, hiển thị chiều ngang)
+max-width: 600px (máy tính bảng, hiển thị chiều dọc)
+max-width: 800px (máy tính bảng, hiển thị chiều ngang)
+max-width: 768px (máy tính bảng loại to, hiển thị chiều dọc)
+max-width: 1024px (máy tính bảng loại to, hiển thị chiều ngang)
+min-width: 1025px (từ size này trở lên là danh cho desktop thông thường).*/

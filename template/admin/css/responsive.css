@@ -1,0 +1,23 @@
+
+@media screen and (max-width: 767px){
+	body{
+		background: none;
+	}
+	.menu-content{
+		display: none;
+	}
+
+
+
+	/*Ẩn mấy cái text khi click cho menu ra*/
+	
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		background: green;
+	}
+
+	
+	
+
+
+
+}

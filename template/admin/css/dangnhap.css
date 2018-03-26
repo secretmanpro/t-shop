@@ -1,0 +1,46 @@
+body{
+	background-image: url("../../admin/images/dangnhap/overlay.png"), url('../../admin/images/dangnhap/bg-dangnhap.jpg');
+	background-size: auto , cover;
+	background-color: #838383;
+	background-repeat: repeat,no-repeat;
+	background-position: left top,center center;
+	background-attachment: scroll,fixed;
+}
+.formLogInAdmin{
+	position: relative;
+	top:50%;
+	padding:40px;
+	margin-top: 40px;
+	vertical-align: middle;
+	border-radius: 15px ;
+}
+.formLogInAdmin input[type='text'],.formLogInAdmin input[type='password']{
+	padding: 20px;
+}
+.input-group-addon:first-child{
+	border:2px solid white!important;
+}
+.usernameAdmin,.passwordAdmin{
+	background: rgba(255, 255, 255, 0.15);
+	color:white;
+	border :solid 2px white;
+}
+.usernameAdmin::placeholder,.passwordAdmin::placeholder{
+	opacity:1 ;
+	color:white;
+}
+.usernameAdmin::-ms-input-placeholder,.passwordAdmin::-ms-input-placeholder{
+	opacity:1 ;
+	color:white;
+}
+.btn-login{
+	background: orange;
+	color:white;
+	padding:10px;
+}
+.btn-login:hover{
+	background: red;
+	color:white;
+	padding:10px;
+	transition: all 0.4s;
+}

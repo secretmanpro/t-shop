@@ -1,0 +1,63 @@
+
+
+
+/*Thông tin giỏ hàng*/
+.img-cart{
+  width: 200px;
+  height: 200px;
+}
+.quanlygiohang{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.table>thead>tr>th{
+  text-align: center;
+}
+.table>tbody>tr>td{
+  padding: 10px;
+  text-align: center;
+}
+
+
+.order{
+  position: relative;
+  text-align: center;
+}
+.btnOrder{
+    border-radius: 15px;
+    background: #072a5c;
+    color: white;
+    font-size: 18px;
+
+    
+    margin-top: 10px;
+
+}
+
+.btnOrder:hover,
+.btnOrder:focus {
+    display: inline-block;
+    background: orange;
+    color: white;
+    transition: all 0.5s;
+}
+
+.btnOrder:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 15px;
+    right: 15px;
+    bottom: 5px;
+
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.3s ease;
+    transition-delay: 0.2s;
+}
+
+.btnOrder:hover:before {
+    opacity: 1;
+    bottom: 5px;
+}
+

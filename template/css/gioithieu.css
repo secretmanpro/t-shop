@@ -1,0 +1,59 @@
+
+
+/*ĐỊNH DẠNG ĐOẠN VĂN*/
+.page-content .paragraph{
+  text-align: justify;
+  font-size: 14px;
+}
+
+.section-count{  
+  min-height: 320px;
+
+  width:100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('../images/gioithieu/bg-section.png');
+}
+
+.section-count .title-count{
+  text-align: center;
+  margin-top: 30px;
+
+}
+.section-count .number{
+      font-size: 30px;
+      color: white;
+}
+.section-count .caption{
+  font-size: 24px;
+    text-align: center;
+     color: white;
+  font-weight: bold;
+}
+
+.img-count-content{
+  width: 80px;
+  height:80px;
+  margin:0 auto;
+  display: block;
+  background-color: white;
+  border-radius: 50%;
+}
+.section-count .hotline{
+  font-size: 50px;
+  color:white;
+  width:100%;
+  float:left;
+  margin-top: 25px;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+
+}
+
+.img-hotline {
+  text-align: center;
+  display: block;
+  margin:0 auto;
+  width:5%;
+  vertical-align: middle;
+}

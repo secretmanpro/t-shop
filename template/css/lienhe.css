@@ -1,0 +1,113 @@
+
+
+
+
+
+/*Màu button gửi*/
+
+.bg-btn {
+    position: relative;
+    background-color: orange ;
+    border: none;
+    font-size: 14px;
+    color:white;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.bg-btn:after {
+    content: "";
+    background: #d5dce7;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.btnLienHe{
+	
+  text-align: center;
+}
+.bg-btn:hover {
+   	color: white;
+    opacity: 1;
+    background: red;
+    transition: 0.8s
+}
+.bg-btn:focus{
+	color:white;
+	outline: none;
+}
+.bg-btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+
+}
+.content-contact{
+  text-align: center;
+  font-size: 16px;
+  color:white;
+}
+.img-contact{
+  width: 90px;
+  height:90px;
+  border-radius: 50%;
+  margin:10px auto;
+  color:black;
+  background: #f4f4f4;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+.img-contact:hover{
+   background:orange;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.img-contact i{
+  width:70px;
+  height:70px;
+  font-size: 50px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+ 
+  text-align: center;
+}
+.img-contact i:hover{
+  color:white;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.content{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.section-2{
+  width:100%;
+  min-height:300px;
+  margin-top: 40px;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../images/lienhe/bg1.png");
+}
+#googleMap{
+	display: block;
+	margin:10px auto;
+	width: calc(50%-10px-10px);
+	height: 413px;
+}
+
