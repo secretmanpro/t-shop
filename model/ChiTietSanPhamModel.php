@@ -9,7 +9,7 @@
                     left join nguoi_dung nd
                     on nd.ma_ngdung = dg.ma_ngdung
                     join page_url p
-                    on sp.ma_sanpham = p.ma_sanpham 
+                    on sp.ma_sanpham = p.ma_sanpham
                     left join hinh_san_pham h
                     on sp.ma_sanpham = h.ma_sanpham
                     join thuong_hieu th
@@ -60,6 +60,12 @@
                 }
             return $this->loadMoreRows($sql);
         }
+
+        public function productForCart($id)
+        {
+          $sql = "SELECT tensp, tenhinh, price FROM san_pham WHERE ma_sanpham = $id LIMIT 1";
+          return $this->loadOneRow($sql);
+        }
     }
- 
+
 ?>
