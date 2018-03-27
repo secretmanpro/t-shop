@@ -72,7 +72,7 @@ class Cart
      * @param boolean $slsp
      * @return integer
     **/
-    private function totalItem($slsp = true)
+    public function totalItem($slsp = true)
     {
         return $slsp ? array_sum(array_column($this->items, 'qty')) : count($this->items);
     }
@@ -81,7 +81,7 @@ class Cart
      * Tổng giá tiền
      * @return integer
     **/
-    private function totalPrice()
+    public function totalPrice()
     {
         return array_sum(array_map(function ($item) {
             return $item['price'] * $item['qty'];
